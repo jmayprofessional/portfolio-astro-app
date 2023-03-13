@@ -30,22 +30,38 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Meet Joshua May"
+					tagline="I am a Creative Full Stack Developer who is currently based in Charleston, SC. I work on goverment projects as a Senior Consultant."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Skills</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> JavaScript</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> React.js</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Vue.js</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Angular.js</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> API Development</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Tailwind</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Bootstrap</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Java</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> C#</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Azure Dev Ops</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> AWS</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Firebase</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Docker</Pill>
+						<Pill><Icon icon="git" size="1.33em" /> Git</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Jenkins</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> CI/CD Pipelines</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Fortify</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Enterprise Architecture</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Josh portrait"
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="/assets/headshotportrait.png"
 				/>
 			</header>
 
@@ -76,28 +92,6 @@ const projects = (await getCollection('work'))
 						View All
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
-				</div>
-			</section>
-
-			<section class="section with-background bg-variant">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to recieve praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
 				</div>
 			</section>
 		</main>

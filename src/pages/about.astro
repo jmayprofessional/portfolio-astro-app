@@ -3,9 +3,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import Icon from '../components/Icon.astro';
+import Pill from '../components/Pill.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="About | Joshua May" description="About Josh May">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
@@ -15,8 +17,8 @@ import Hero from '../components/Hero.astro';
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					src="/assets/subjectMatterExpert.png"
+					alt="Joshua working"
 				/>
 			</Hero>
 
@@ -24,35 +26,43 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
+						A modern swiss army knife of a developer 
+					</p><br>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						Experience ranging from full stack development, working across multiple industries in both the goverment health care space and popular award winning brands, Josh May has a sprawling resume filled with vital experience and growth points in his career. The opportunity to work in client facing roles, work closely with senior level executives, and be a part of some major digital and development transformations across multiple industries really develops your sense of what your project's future can look like.
 					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>University of South Carolina, Class of 2013</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<div class="roles">
+						<Pill><Icon icon="code" size="1.33em" /> Skills</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> JavaScript</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> React.js</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Vue.js</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Angular.js</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> API Development</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Tailwind</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Bootstrap</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Java</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> C#</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Azure Dev Ops</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> AWS</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Firebase</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Docker</Pill>
+						<Pill><Icon icon="git" size="1.33em" /> Git</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Jenkins</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> CI/CD Pipelines</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Fortify</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Enterprise Architecture</Pill>
+					</div>
 				</div>
 			</section>
 		</main>
