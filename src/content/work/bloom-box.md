@@ -1,7 +1,7 @@
 ---
 title: Shimano North America Fishing
 publishDate: 2019-12-01 00:00:00
-img: /assets/shimanoNorthAmerica.png
+img: portfolio-astro-app/assets/shimanoNorthAmerica.png
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
   An industry leader in the sporting goods arena, internationally reknown for making the "rholls rhoyce" of fishing and biking equipment for over 50 years.
