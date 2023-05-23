@@ -1,7 +1,7 @@
 ---
 title: Astro and other Technology discoveries
 publishDate: 2020-03-02 00:00:00
-img: /assets/astroCLS.png
+img: /portfolio-astro-app/assets/astroCLS.png
 img_alt: comparison chart of astro vs other leading competitors
 description: |
   I am not going to lie to you - I read this article which I've linked below and I immediately had to build something in Astro
