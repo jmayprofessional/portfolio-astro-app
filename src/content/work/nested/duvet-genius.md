@@ -1,7 +1,7 @@
 ---
 title: Defense Veterans Eye Injury & Vision Registry
 publishDate: 2020-03-04 00:00:00
-img: assets/DVEIVR.png
+img: portfolio-astro-app/assets/DVEIVR.png
 img_alt: DVEIVR generic homepage
 description: |
   The Defense Veterans Eye Injury & Vision Registry
