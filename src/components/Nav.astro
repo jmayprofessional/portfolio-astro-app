@@ -1,5 +1,6 @@
 ---
-import Icon, { Props as IconProps } from './Icon.astro';
+import Icon from './Icon.astro';
+import type { Props as IconProps } from './Icon.astro';
 import ThemeToggle from './ThemeToggle.astro';
 
 /** Main menu items */
@@ -9,10 +10,12 @@ const textLinks: { label: string; href: string }[] = [
 	{ label: 'About', href: '/portfolio-astro-app/about/' },
 ];
 
-/** Icon links to social media — edit these with links to your profiles! */
+/** Icon links to email, social media, and a link to my resume */
 const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
+{ label: 'Email', href: 'mailto:jmayprofessional@gmail.com', icon: 'email' },
 	{ label: 'LinkedIn', href: 'https://linkedin.com/in/joshua-may-a745397a', icon: 'linkedIn' },
-	{ label: 'GitHub', href: 'https://github.com/jmayprofessional?tab=repositories', icon: 'github-logo' }
+	{ label: 'GitHub', href: 'https://github.com/jmayprofessional?tab=repositories', icon: 'github-logo' },
+	{ label: 'Resume', href: 'https://docs.google.com/document/d/19UiM5WLUz5jjrfJgSNxefCYhYTNMZxhrhNFQG4XqEHI/edit?usp=sharing', icon: 'resume' }
 ];
 ---
 
