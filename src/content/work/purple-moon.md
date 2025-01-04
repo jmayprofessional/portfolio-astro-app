@@ -1,7 +1,7 @@
 ---
 title: Booz Allen
 publishDate: 2024-01-04 00:00:00
-img: /portfolio-astro-app/assets/boozAllenWork.jpg
+img: /portfolio-astro-app/assets/boozAllen.png
 img_alt: Booz Allen Logo Veterans Affairs Support
 description: |
   Responsible for building and maintaining various applications that enable veterans to receive their well deserved and needed benefits faster by developing innovative applications in React TypeScript and Java.
